@@ -7,4 +7,6 @@ Then replace XXXXX with the password for that connection
 
 This project made the assumption that the DB tables already contained data and therefore do not require the creation of tables while
 executing. Instead I have provided the SQL code that creates sample tables/data to be used to execute the Project.
-Just copy and paste these codes onto a mySQL query. 
+Just copy and paste these codes onto a mySQL query.
+
+To get access to admin capabilites enter the password admin into the log in text field.
