@@ -1,0 +1,10 @@
+Due to security reasons I did not disclose my personal server. However to execute the program  all that is required is replacing the XXX
+and XXXXX in the Database class. 
+Replace XXX with your username for the mySQL DB connection you wish to use. 
+Then replace XXXXX with the password for that connection
+
+***All that is required of you is to create a schema on MySQL called showings.***
+
+This project made the assumption that the DB tables already contained data and therefore do not require the creation of tables while
+executing. Instead I have provided the SQL code that creates sample tables/data to be used to execute the Project.
+Just copy and paste these codes onto a mySQL query. 
