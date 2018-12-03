@@ -25,7 +25,7 @@ public class database {
 		try {
 				
 			//connect to database, xxxxxxx represents the poassword for the DB
-			myConn = DriverManager.getConnection(url, "root", "XXXXXXXXX");
+			myConn = DriverManager.getConnection(url, "XXX", "XXXXX");
 			return myConn;
 		}
 		catch (SQLException ex) {
