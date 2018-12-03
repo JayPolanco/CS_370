@@ -151,7 +151,7 @@ import javax.swing.JLabel;
 
 		public void setPasswordField(JPasswordField passwordField) {
 			loginregisterGUI.passwordField = passwordField;
-		}//Thoughts on this one guys? Would this method act as a back door for password theft?
+		}
 		
 		public Vector<User> getUsersV() {
 			return usersV;
