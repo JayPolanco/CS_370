@@ -36,7 +36,7 @@ public class database {
 		try {
 			//connect to database
 			//Replace XXX with the username of the DB connection and XXXXX with the password to that connection
-			myConn = DriverManager.getConnection(url, "root", "Bloodborne123q!");
+			myConn = DriverManager.getConnection(url, "XXX", "XXXXX");
 		}
 		catch (SQLException ex) {
 			throw new RuntimeException("Couldn't connect to database");
