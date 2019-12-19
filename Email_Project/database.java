@@ -102,7 +102,7 @@ public class database {
 			String sql = "SELECT * FROM email.`" + u.getUserName() + "`" +
 					" WHERE location = '" + locationCHAR +
 					"' ORDER BY emailNum ASC";
-			String fromEmail, subject, timestamp, body;        //*******KARL********
+			String fromEmail, subject, timestamp, body;       
 			int primeKey;
 			
 			try {
@@ -115,10 +115,10 @@ public class database {
 					subject = rs.getString("subject");
 					timestamp = rs.getString("time");
 					primeKey = rs.getInt("emailNum");
-					body = rs.getString("body");                //*******KARL********
+					body = rs.getString("body");               
 					
 					//System.out.println("\n HOMEPAGE.ADD_ROW BEING RUN Inbox"+fromEmail);
-					Homepage.add_row(model_box, fromEmail, subject, timestamp, primeKey, body); //*******KARL********
+					Homepage.add_row(model_box, fromEmail, subject, timestamp, primeKey, body); 
 					
 				}
 			} catch (SQLException e) {
